@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products Table</title>
+    <style>
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>Papaitan</td>
+                <td>Php 80.00</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Bicol Express (Pork)</td>
+                <td>Php 60.00</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Garlic Pork</td>
+                <td>Php 60.00</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Stir Fried Tofu</td>
+                <td>Php 40.00</td>
+                <td>Out of Stocks</td>
+            </tr>
+            <tr>
+                <td>Chicken Caldereta</td>
+                <td>Php 60.00</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Lechon Paksiw</td>
+                <td>Php 70.00</td>
+                <td>Out of Stocks</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
